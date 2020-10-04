@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('layout.master', ['title' => 'Laravel 7 - About'])
 
 @section('content')
     <h1> Ini halaman About</h1>
